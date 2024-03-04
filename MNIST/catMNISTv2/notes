@@ -1,0 +1,7 @@
+catMNISTv2: choose one of three digits and either concat a contextual from right or leave it as it is
+operation vector: 9 dim one-hot to 100 dim rep cat it to the three digit-entities (9 -> 6 pair combinations + 3 digits)
+choose rule and primary simultaneously with one attetntion mechanism
+choose contextual for the primary with second attetntion mechanism
+apply rule to image part of two chosen digit entities
+works perfect
+

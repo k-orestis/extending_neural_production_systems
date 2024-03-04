@@ -1,0 +1,6 @@
+catMNIST: choose one of two digits ane either concat the other from right or leave it as it is
+operation vector: 4 dim one-hot to 100 dim rep cat it to both digit-entities
+choose rule and primary simultaneously
+apply rule to image part of two digit entities
+works perfect
+

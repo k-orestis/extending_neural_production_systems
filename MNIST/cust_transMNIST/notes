@@ -1,0 +1,9 @@
+tansMNIST: apply one customized transformation to one digit
+operation vector: 4 dim one-hot vactors -> 100 dim rep instead of one a random numver between 4-8 specifying the transformation
+
+two entities: image and operation
+choose rule with attention rule-entites (we want it to choose from operation entity)
+apply rule to image entity after concating the number specifying the transformation
+
+NPS manage to distinguish the four rules and make rules that canbe adjusted with a number
+

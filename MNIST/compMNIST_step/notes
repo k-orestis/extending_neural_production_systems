@@ -1,0 +1,13 @@
+compMNIST_steps: apply two transformations sequentially to one digit-> we try to make the model distinguish the rules
+operation vector: concat 2 4 dim one-hot vactors -> 100 dim rep and then cat it to the digit-entity 
+	(4 first dim transformation in first step, 4 second dim transformation in second step)
+	
+choose rule at each step with 200 dim entity and expect rule network to add second step information for different second rule selection
+
+apply rule to image part of the entity after concating a ten dim vector for step
+rule mlp 110 -> 100 dim 
+
+Printing the confusion matrix the network uses one ruke combination for transf combinations that compose to identity
+it manages to distinguish the rest transf pairs expect from two that uses the same rule combnation and has not optimal outcome for them.
+
+

@@ -1,0 +1,9 @@
+catMNISTvseq: choose one of three digits and either concat a contextual from right or leave it as it is
+	      Then does the same with the entities that occur.
+operation vector: 15 dim one-hot to 100 dim rep cat it to the three digit-entities (15 -> 6 triple combinations, 6 pair combinations + 3 digits)
+choose rule and primary simultaneously with one attetntion mechanism
+choose contextual for the primary with second attetntion mechanism
+apply rule to image part of two chosen digit entities
+pass the result again to nps and concat again operation rep to each entity
+DOes not work well.
+

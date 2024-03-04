@@ -1,0 +1,9 @@
+compMNIST: apply two transformations sequentially to one digit
+operation vector: concat 2 4 dim one-hot vactors -> 100 dim rep and them cat it to the digit-entity 
+	(4 first dim transformation in first step, 4 second dim transformation in second step)
+	
+choose rule at each step and expect rule network to add second step information for different second rule selection
+apply rule to 200 dim entity
+The outcome is the desired, however we print the confusion matrix for true rule combinations and rule combinations selected 
+abd it seems that it always chooses one rule combination (however different rules in each steps)
+
