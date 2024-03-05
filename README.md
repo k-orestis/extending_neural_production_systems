@@ -1,7 +1,7 @@
 
 # Neural Production Systems (NPS) Implementation and Augmentation
 
-This repository contains an implementation and augmentation of Neural Production Systems (NPS) as introduced in the paper by [XYZ](https://arxiv.org/pdf/2103.01937.pdf). The code is built upon the NPS paper repository ([GitHub](https://github.com/anirudh9119/neural_production_systems.git)), as well as [XYZ](https://github.com/dido1998/CausalMBRL.git) for the physics experiment. For a detailed analysis of the experiments, refer to `report.pdf`. The repository also contains trained models and output images.
+This repository contains an implementation and augmentation of Neural Production Systems (NPS) as introduced in NPS paper (https://arxiv.org/pdf/2103.01937.pdf). The code is built upon the NPS paper repository ([GitHub](https://github.com/anirudh9119/neural_production_systems.git)), as well as CausalMBRL repository (https://github.com/dido1998/CausalMBRL.git) for the physics experiment. For a detailed analysis of the experiments, refer to `report.pdf`. The repository also contains trained models and output images.
 
 ## Contents
 
@@ -45,7 +45,7 @@ Then, run inside each experiment directory:
 
 ### Physics
 
-We integrate the NPS algorithm into the physics experiment as introduced in [XYZ](https://arxiv.org/abs/2107.00848).
+We integrate the NPS algorithm into the physics experiment as introduced in (https://arxiv.org/abs/2107.00848).
 
 ## References
 
