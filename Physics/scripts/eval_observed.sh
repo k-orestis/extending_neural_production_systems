@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo Running on $HOSTNAME
+
+num_obj=$1
+name=$2
+encoder=$3
+cmap=$4
+seed=$5
+loss=$6
+mode=$7
+emb=$8
+
+dir="models_"$emb
+
+data="data/Observed/wshapes_observed"
+
+save=$dir"/Observed/"$name"_"$seed"/"
+
+name=$name"_"$loss"_"$encoder"_"$num_obj"_"$cmap
+echo $name
+
+extras=""
+
+echo $extras
+
+python ./eval.py --dataset $data"_"$num_obj"_"$cmap"_"$mode".h5" \
+	--save-folder $save""$name --save $dir $extras

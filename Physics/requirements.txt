@@ -1,0 +1,23 @@
+# Pip dependencies
+atari-py==0.2.6
+blosc==1.9.1
+click==7.1.2
+cloudpickle==1.2.2
+dill==0.3.2
+future==0.18.2
+gym==0.15.7
+h5py==3.10.0
+imageio==2.8.0
+joblib==0.15.1
+matplotlib==3.2.2
+networkx==2.4
+numpy==1.15.4
+progressbar2==3.51.4
+pyglet==1.5.0
+python-utils==2.4.0
+pywavelets==1.1.1
+pyzmq==19.0.1
+scikit-image==0.17.2
+tifffile==2020.6.3
+zmq==0.0.0
+opencv-python==4.2.0.34
