@@ -1,7 +1,7 @@
 # Arithmetic experiment Reproduction and Extension
 
 reproduction: 
-- simple_1_step <br />
-extension: <br />
+- simple_1_step 
+extension: 
 - PNPS (3 slots): parallel_3_slots <br />
 - SNPS (2 steps): sequential_2_steps
